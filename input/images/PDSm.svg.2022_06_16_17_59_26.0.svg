@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1280"
+   height="720"
+   overflow="hidden"
+   version="1.1"
+   id="svg211"
+   sodipodi:docname="PDSm.svg"
+   inkscape:version="1.2 (dc2aeda, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview213"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.544064"
+     inkscape:cx="488.32173"
+     inkscape:cy="321.87785"
+     inkscape:window-width="1512"
+     inkscape:window-height="866"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g209" />
+  <defs
+     id="defs157">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-14.895756 : 336.40394 : 1"
+       inkscape:vp_y="0 : 1676.2796 : 0"
+       inkscape:vp_z="1265.1042 : 336.40394 : 1"
+       inkscape:persp3d-origin="625.10424 : 135.25037 : 1"
+       id="perspective464" />
+    <rect
+       x="348.25589"
+       y="329.39395"
+       width="1.8401896"
+       height="16.561707"
+       id="rect580" />
+    <clipPath
+       id="clip0">
+      <rect
+         x="0"
+         y="0"
+         width="1280"
+         height="720"
+         id="rect154" />
+    </clipPath>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="707.10568 : 328.09412 : 1"
+       inkscape:vp_y="0 : 1676.2796 : 0"
+       inkscape:vp_z="1987.1056 : 328.09412 : 1"
+       inkscape:persp3d-origin="1347.1056 : 126.94056 : 1"
+       id="perspective464-8" />
+  </defs>
+  <g
+     clip-path="url(#clip0)"
+     id="g209">
+    <path
+       d="m 194.5,118.76983 h 673.334 v 1.334 H 194.5 Z m 672,-3.333 8,4 -8,4 z"
+       id="path173" />
+    <path
+       d="m 877.91821,200.34846 -681.514,1e-4 v 1.33334 l 681.514,-1.1e-4 z m -680.18,-3.33323 -8,4 8,4 z"
+       id="path193" />
+    <a
+       id="a751"
+       xlink:href="flux2.html"
+       target="_top"
+       transform="translate(-5.828774,-180.83724)">
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         id="text207"
+         x="230.94249"
+         y="346.18112">Flux 2</text>
+    </a>
+    <a
+       id="a751-7"
+       xlink:href="flux1.html"
+       target="_top"
+       transform="translate(-8.1293624,-273.35074)">
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         id="text207-9"
+         x="230.82188"
+         y="351.82233">Flux 1</text>
+    </a>
+    <text
+       xml:space="preserve"
+       style="fill:#000000"
+       x="304.38168"
+       y="161.82275"
+       id="text576"><tspan
+         sodipodi:role="line"
+         id="tspan574"
+         x="304.38168"
+         y="161.82275">RésultatAjoutDocument [ITI65]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="fill:#000000"
+       x="304.07477"
+       y="74.211884"
+       id="text576-1"><tspan
+         sodipodi:role="line"
+         id="tspan574-7"
+         x="304.07477"
+         y="74.211884">AjoutLotDocument [ITI65]</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text578"
+       style="white-space:pre;shape-inside:url(#rect580);display:inline;fill:#000000"
+       transform="translate(0,-105.06317)" />
+    <text
+       xml:space="preserve"
+       style="fill:#800000"
+       x="224.04309"
+       y="262.51471"
+       id="text586"><tspan
+         sodipodi:role="line"
+         id="tspan584"
+         x="224.04309"
+         y="262.51471" /></text>
+    <text
+       xml:space="preserve"
+       style="fill:#ff0000"
+       x="247.50551"
+       y="260.21448"
+       id="text694"><tspan
+         sodipodi:role="line"
+         id="tspan692"
+         x="247.50551"
+         y="260.21448" /></text>
+    <text
+       xml:space="preserve"
+       style="fill:#ff0000"
+       x="226.03513"
+       y="183.52032"
+       id="text698"><tspan
+         sodipodi:role="line"
+         id="tspan696"
+         x="226.03513"
+         y="183.52032">HTTP OK 200 (+ ressource &quot;Bundle)</tspan></text>
+    <a
+       id="a751-3"
+       xlink:href="file:///Users/nicolasriss/Desktop/ig/ans-ig-pdsm/input/images/flux2.html"
+       target="_top"
+       transform="translate(-10.595946,-97.567204)">
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         id="text207-7"
+         x="230.94249"
+         y="346.18112">Flux 2</text>
+    </a>
+    <text
+       xml:space="preserve"
+       style="fill:#000000"
+       x="299.6145"
+       y="245.09277"
+       id="text576-5"><tspan
+         sodipodi:role="line"
+         id="tspan574-0"
+         x="299.6145"
+         y="245.09277">RésultatAjoutDocument [ITI65]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="fill:#ff0000"
+       x="221.26796"
+       y="266.79034"
+       id="text698-2"><tspan
+         sodipodi:role="line"
+         id="tspan696-1"
+         x="221.26796"
+         y="266.79034">HTTP OK 200 (+ ressource &quot;Bundle)</tspan></text>
+    <a
+       id="a751-3-8"
+       xlink:href="file:///Users/nicolasriss/Desktop/ig/ans-ig-pdsm/input/images/flux2.html"
+       target="_top"
+       transform="translate(-13.729324,-21.582765)">
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         id="text207-7-7"
+         x="230.94249"
+         y="346.18112">Flux 2</text>
+    </a>
+    <text
+       xml:space="preserve"
+       style="fill:#000000"
+       x="296.48114"
+       y="321.07721"
+       id="text576-5-1"><tspan
+         sodipodi:role="line"
+         id="tspan574-0-5"
+         x="296.48114"
+         y="321.07721">RésultatAjoutDocument [ITI65]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="fill:#ff0000"
+       x="218.13457"
+       y="342.77478"
+       id="text698-2-5"><tspan
+         sodipodi:role="line"
+         id="tspan696-1-8"
+         x="218.13457"
+         y="342.77478">HTTP OK 200 (+ ressource &quot;Bundle)</tspan></text>
+    <a
+       id="a751-3-8-5"
+       xlink:href="file:///Users/nicolasriss/Desktop/ig/ans-ig-pdsm/input/images/flux2.html"
+       target="_top"
+       transform="translate(-13.729324,53.618327)">
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         id="text207-7-7-6"
+         x="230.94249"
+         y="346.18112">Flux 2</text>
+    </a>
+    <text
+       xml:space="preserve"
+       style="fill:#000000"
+       x="296.48114"
+       y="396.27832"
+       id="text576-5-1-7"><tspan
+         sodipodi:role="line"
+         id="tspan574-0-5-9"
+         x="296.48114"
+         y="396.27832">RésultatAjoutDocument [ITI65]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="fill:#ff0000"
+       x="218.13457"
+       y="417.97589"
+       id="text698-2-5-4"><tspan
+         sodipodi:role="line"
+         id="tspan696-1-8-1"
+         x="218.13457"
+         y="417.97589">HTTP OK 200 (+ ressource &quot;Bundle)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="fill:#ff0000"
+       x="225.07562"
+       y="99.057266"
+       id="text698-1"><tspan
+         sodipodi:role="line"
+         id="tspan696-7"
+         x="225.07562"
+         y="99.057266">HTTP POST [base] (+ ressource &quot;Bundle)</tspan></text>
+    <g
+       sodipodi:type="inkscape:box3d"
+       id="g466"
+       style="fill:#ff0000"
+       inkscape:perspectiveID="#perspective464"
+       inkscape:corner0="2.646498 : 0.86122636 : 0 : 1"
+       inkscape:corner7="2.4918762 : -0.18334861 : 0.042815047 : 1">
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path478"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none;stroke-width:1.29471;stroke-linejoin:round"
+         inkscape:box3dsidetype="11"
+         d="m 173.43287,46.811788 8.23826,-14.732316 V 527.45505 l -8.23826,-6.02924 z"
+         points="181.67113,32.079472 181.67113,527.45505 173.43287,521.42581 173.43287,46.811788 " />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path468"
+         style="fill:#353564;fill-rule:evenodd;stroke:none;stroke-width:1.29471;stroke-linejoin:round"
+         inkscape:box3dsidetype="6"
+         d="M 160.6151,42.857464 V 523.04413 l 12.81777,-1.61832 V 46.811788 Z"
+         points="160.6151,523.04413 173.43287,521.42581 173.43287,46.811788 160.6151,42.857464 " />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path476"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none;stroke-width:1.29471;stroke-linejoin:round"
+         inkscape:box3dsidetype="13"
+         d="m 160.6151,523.04413 7.7717,6.17482 13.28433,-1.7639 -8.23826,-6.02924 z"
+         points="168.3868,529.21895 181.67113,527.45505 173.43287,521.42581 160.6151,523.04413 " />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path470"
+         style="fill:#4d4d9f;fill-rule:evenodd;stroke:none;stroke-width:1.29471;stroke-linejoin:round"
+         inkscape:box3dsidetype="5"
+         d="m 160.6151,42.857464 7.7717,-15.088053 13.28433,4.310061 -8.23826,14.732316 z"
+         points="168.3868,27.769411 181.67113,32.079472 173.43287,46.811788 160.6151,42.857464 " />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path474"
+         style="fill:#d7d7ff;fill-rule:evenodd;stroke:none;stroke-width:1.29471;stroke-linejoin:round"
+         inkscape:box3dsidetype="14"
+         d="M 168.3868,27.769411 V 529.21895 l 13.28433,-1.7639 V 32.079472 Z"
+         points="168.3868,529.21895 181.67113,527.45505 181.67113,32.079472 168.3868,27.769411 " />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path472"
+         style="fill:#8686bf;fill-rule:evenodd;stroke:none;stroke-width:1.29471;stroke-linejoin:round"
+         inkscape:box3dsidetype="3"
+         d="m 160.6151,42.857464 7.7717,-15.088053 V 529.21895 l -7.7717,-6.17482 z"
+         points="168.3868,27.769411 168.3868,529.21895 160.6151,523.04413 160.6151,42.857464 " />
+    </g>
+    <g
+       sodipodi:type="inkscape:box3d"
+       id="g466-6"
+       style="fill:#ff0000"
+       inkscape:perspectiveID="#perspective464-8"
+       inkscape:corner0="2.646498 : 0.86122636 : 0 : 1"
+       inkscape:corner7="2.4918762 : -0.18334861 : 0.042815047 : 1">
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path478-2"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none;stroke-width:1.29471;stroke-linejoin:round"
+         inkscape:box3dsidetype="11"
+         d="m 895.43428,55.121605 8.23826,-14.732316 V 535.76486 l -8.23826,-6.02923 z"
+         points="903.67254,40.389289 903.67254,535.76486 895.43428,529.73563 895.43428,55.121605 " />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path468-5"
+         style="fill:#353564;fill-rule:evenodd;stroke:none;stroke-width:1.29471;stroke-linejoin:round"
+         inkscape:box3dsidetype="6"
+         d="M 882.61652,51.167281 V 531.35395 l 12.81776,-1.61832 V 55.121605 Z"
+         points="882.61652,531.35395 895.43428,529.73563 895.43428,55.121605 882.61652,51.167281 " />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path476-1"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none;stroke-width:1.29471;stroke-linejoin:round"
+         inkscape:box3dsidetype="13"
+         d="m 882.61652,531.35395 7.77169,6.17482 13.28433,-1.76391 -8.23826,-6.02923 z"
+         points="890.38821,537.52877 903.67254,535.76486 895.43428,529.73563 882.61652,531.35395 " />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path470-3"
+         style="fill:#4d4d9f;fill-rule:evenodd;stroke:none;stroke-width:1.29471;stroke-linejoin:round"
+         inkscape:box3dsidetype="5"
+         d="m 882.61652,51.167281 7.77169,-15.088053 13.28433,4.310061 -8.23826,14.732316 z"
+         points="890.38821,36.079228 903.67254,40.389289 895.43428,55.121605 882.61652,51.167281 " />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path474-9"
+         style="fill:#d7d7ff;fill-rule:evenodd;stroke:none;stroke-width:1.29471;stroke-linejoin:round"
+         inkscape:box3dsidetype="14"
+         d="M 890.38821,36.079228 V 537.52877 l 13.28433,-1.76391 V 40.389289 Z"
+         points="890.38821,537.52877 903.67254,535.76486 903.67254,40.389289 890.38821,36.079228 " />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path472-7"
+         style="fill:#8686bf;fill-rule:evenodd;stroke:none;stroke-width:1.29471;stroke-linejoin:round"
+         inkscape:box3dsidetype="3"
+         d="m 882.61652,51.167281 7.77169,-15.088053 V 537.52877 l -7.77169,-6.17482 z"
+         points="890.38821,36.079228 890.38821,537.52877 882.61652,531.35395 882.61652,51.167281 " />
+    </g>
+    <a
+       id="a751-3-8-5-5"
+       xlink:href="file:///Users/nicolasriss/Desktop/ig/ans-ig-pdsm/input/images/flux2.html"
+       target="_top"
+       transform="translate(-16.079358,116.28591)">
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         id="text207-7-7-6-9"
+         x="230.94249"
+         y="346.18112">Flux 2</text>
+    </a>
+    <text
+       xml:space="preserve"
+       style="fill:#000000"
+       x="294.1311"
+       y="458.94586"
+       id="text576-5-1-7-7"><tspan
+         sodipodi:role="line"
+         id="tspan574-0-5-9-5"
+         x="294.1311"
+         y="458.94586">RésultatAjoutDocument [ITI65]</tspan></text>
+    <text
+       xml:space="preserve"
+       style="fill:#ff0000"
+       x="215.78452"
+       y="480.64343"
+       id="text698-2-5-4-3"><tspan
+         sodipodi:role="line"
+         id="tspan696-1-8-1-9"
+         x="215.78452"
+         y="480.64343">HTTP OK 200 (+ ressource &quot;Bundle)</tspan></text>
+  </g>
+  <a
+     id="a751-3-8-5-8"
+     xlink:href="file:///Users/nicolasriss/Desktop/ig/ans-ig-pdsm/input/images/flux2.html"
+     target="_top"
+     transform="translate(-17.053897,174.86658)">
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="24px"
+       id="text207-7-7-6-91"
+       x="230.94249"
+       y="346.18112">Flux 2</text>
+  </a>
+  <text
+     xml:space="preserve"
+     style="fill:#000000"
+     x="293.15659"
+     y="517.52661"
+     id="text576-5-1-7-4"><tspan
+       sodipodi:role="line"
+       id="tspan574-0-5-9-8"
+       x="293.15659"
+       y="517.52661">RésultatAjoutDocument [ITI65]</tspan></text>
+  <text
+     xml:space="preserve"
+     style="fill:#ff0000"
+     x="214.81"
+     y="539.22418"
+     id="text698-2-5-4-8"><tspan
+       sodipodi:role="line"
+       id="tspan696-1-8-1-7"
+       x="214.81"
+       y="539.22418">HTTP OK 200 (+ ressource &quot;Bundle)</tspan></text>
+  <a
+     id="a751-3-8-5-1"
+     xlink:href="file:///Users/nicolasriss/Desktop/ig/ans-ig-pdsm/input/images/flux2.html"
+     target="_top"
+     transform="translate(-24.77913,245.93873)">
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="24px"
+       id="text207-7-7-6-93"
+       x="230.94249"
+       y="346.18112">Flux 2</text>
+  </a>
+  <text
+     xml:space="preserve"
+     style="fill:#000000"
+     x="285.43134"
+     y="588.59875"
+     id="text576-5-1-7-1"><tspan
+       sodipodi:role="line"
+       id="tspan574-0-5-9-1"
+       x="285.43134"
+       y="588.59875">RésultatAjoutDocument [ITI65]</tspan></text>
+  <text
+     xml:space="preserve"
+     style="fill:#ff0000"
+     x="207.08476"
+     y="610.29633"
+     id="text698-2-5-4-4"><tspan
+       sodipodi:role="line"
+       id="tspan696-1-8-1-95"
+       x="207.08476"
+       y="610.29633">HTTP OK 200 (+ ressource &quot;Bundle)</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:20px;fill:#000000"
+     x="-405.32452"
+     y="141.3476"
+     id="text496"
+     transform="rotate(-90)"><tspan
+       id="tspan494"
+       x="-405.32452"
+       y="141.3476"
+       style="font-size:20px"
+       sodipodi:role="line">Producteur de documents</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:20px;text-align:center;text-anchor:middle;white-space:pre;inline-size:307.319;fill:#000000"
+     x="-332.47113"
+     y="939.66589"
+     id="text496-9"
+     transform="rotate(-90,-29.654903,-28.618108)"><tspan
+       id="tspan494-0"
+       x="-468.80902"
+       y="939.66589"
+       style="font-size:20px;text-align:center;text-anchor:middle">Gestionnaire de partage de documents</tspan></text>
+</svg>

@@ -1,0 +1,36 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+        <!-- The spaces between the open and close "a" tag are mandatory.  (Cuz HTML renderers are dumb...) -->
+    <a name="intro"> </a>
+    <h3>Ajout d’un lot de documents</h3>
+    <p>
+        Ce flux permet l’ajout ou le remplacement d’un document au dossier patient. Cette demande de modification est faite par le producteur de documents.
+    </p>
+    <a name="construction"> </a>
+    <h3>Construction des flux</h3>
+    <p> Ce flux se base sur la requête de la transaction IHE "Provide Document Bundle [ITI-65]" du profil MHD.</p>
+    <p> 
+        La première étape de la construction du flux 01 de la demande de modification du dossier patient consiste à organiser son contenu dans une ressource Bundle. Un profil spécifique dérivé du profil IHE MHD v4.0.1 « ComprehensiveProvideDocumentBundle » est créé pour ce volet et nommé 
+        <a href="StructureDefinition-pdsm-submissionsetcomprehensive.html">PDSm_ComprehensiveProvideDocumentBundle</a>. Le flux doit contenir :
+        <ul>
+            <li> une ressource de type « List » représentant le lot de soumission (profil <a href="StructureDefinition-pdsm-submissionsetcomprehensive.html">PDSm_SubmissionsSetComprehensive</a>),</li>
+            <li> une à plusieurs ressources de type « DocumentReference », représentant les fiches de documents,</li>
+            <li> zero à plusieurs ressources « Binary » représentant les documents envoyés dans le flux,</li>
+            <li> zero à plusieurs ressources de type « List » représentant les classeurs.</li>
+        </ul>
+    </p>
+    <p> 
+        Dans le cas d’un dépôt d’un nouveau document, l’élément DocumentReference.content.attachment.url doit pointer vers une ressource Binary, représentant le document, présente dans le flux.
+    </p>
+    <p>
+        Dans le cas d’une demande de mise à jour d’un document par remplacement, l’élément DocumentReference.relatesTo doit être renseigné afin d’indiquer le lien avec un DocumentReference existant et de préciser la nature de la mise à jour. L’élément DocumentReference.content.attachment.url doit pointer vers une ressource Binary, représentant le document qui remplace l’ancien, présente dans le flux.
+    </p>
+    <p> 
+        Dans le cas d’une mise à jour d’un classeur, comme List.status ou List.entry pour reclasser des documents, une nouvelle version de la ressource List est envoyée.
+    </p>
+    <p> 
+        Le corps du flux 01 est une ressource "Bundle" de type "transaction" encapsulant toutes les ressources listées précédemment. Cet objet de type JSON ou XML sera envoyé dans le contenu de la requête HTTP POST.
+    </p>
+    <p>
+        A la réception de la demande, le gestionnaire de partage de documents doit valider les ressources et répondre avec un HTTP Code statut
+    </p>
+</div>
