@@ -13,7 +13,7 @@ releaseLabel: ci-build
 dependencies:
     ihe.iti.mhd: 4.1.0
     # FrenchProfiledFHIRAr.072021: 0.1.0
-    ANS.annuaire.fhir.r4: 0.2.0
+    ans.annuaire.fhir.r4: 0.2.0
     # TODO: rajouter fr-core
 
 # menu:
