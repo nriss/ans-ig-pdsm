@@ -10,4 +10,4 @@ Quand le document demandé est retourné, le gestionnaire de partage de document
 
 Le gestionnaire de partage de documents doit fournir le document dans le MIME type demandé ou répondre avec un "HTTP Status Code" indiquant la condition d'erreur. Le gestionnaire de partage de documents n'est pas obligé de transformer le document.
 
-Les situations d'erreur et les réponses HTTP correspondantes sont listées dans le profil MHD.
+Les situations d'erreur et les réponses HTTP correspondantes sont listées dans le [profil MHD](https://profiles.ihe.net/ITI/MHD/index.html).

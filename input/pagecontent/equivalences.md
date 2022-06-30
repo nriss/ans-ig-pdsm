@@ -28,15 +28,39 @@ Ce tableau reprend les acteurs identifiés dans les SFE-PDS ainsi que les flux q
 | ----- | ----- |
 | Flux 1 - AjoutLotDocument <br/> Flux 2 - ResultatAjoutLotDocument XDS | Provide & Register Document Set ITI-41 |
 | Flux 3 - MiseAJourMetadonneeFiche <br/> Flux 4 - ResultatMAJMetadonneFiche | XDS Update Document Set ITI-57 |
-| Flux 5 - RechercheDocument  <br/> Flux 6 -ResultatRechercheDocument |  XDS Stored Query ITI-18 |
+| Flux 5 - RechercheDocument  <br/> Flux 6 - ResultatRechercheDocument | XDS Stored Query ITI-18 |
 | Flux 7 - DemandeConsultationDocuments  <br/> Flux 8 - ResultatDemandeConsultationDocument | XDS Retrieve Document Set ITI-43 |
 {: .grid }
 
 #### Mise en correspondance des flux avec API Doc de l'Assurance Maladie
 
-| **Flux partage de documents de santé en mobilité** | **Flux API DOC CNAM** |
-| ----- | ----- |
-| Flux 1 - AjoutLotDocument <br/> Flux 2 - ResultatAjoutLotDocument XDS | Flux 1 : Alimentation d'un document |
-| Flux 3 - MiseAJourMetadonneeFiche <br/> Flux 4 - ResultatMAJMetadonneFiche | Pas d'équivalence |
-| Flux 5 - RechercheDocument  <br/> Flux 6 -ResultatRechercheDocument |  Flux 2 : Recherche multicritère des métadonnées d'un ou plusieurs documents |
-| Flux 7 - DemandeConsultationDocuments  <br/> Flux 8 - ResultatDemandeConsultationDocument | Flux 3 : Récupération d'un document |
+| **Flux partage de documents de santé en mobilité** | **Flux API DOC CNAM** | **Comparaison** |
+| ----- | ----- | ----- |
+| Flux 1 - AjoutLotDocument <br/> Flux 2 - ResultatAjoutLotDocument XDS | Flux 1 : Alimentation d'un document | Certains différences de modélisation font qu'il n'y a pas de compatibilité, par exemple DocumentReference.category ne sont pas liés au  même ValueSet |
+| Flux 3 - MiseAJourMetadonneeFiche <br/> Flux 4 - ResultatMAJMetadonneFiche | ∅ Pas d'équivalence | ∅ Pas d'équivalence |
+| Flux 5 - RechercheDocument  <br/> Flux 6 - ResultatRechercheDocument | Flux 2 : Recherche multicritère des métadonnées d'un ou plusieurs documents | Les critères de recherche sont différent, mise à part period-start (cf tableau ci-dessous) |
+| Flux 7 - DemandeConsultationDocuments  <br/> Flux 8 - ResultatDemandeConsultationDocument | Flux 3 : Récupération d'un document | Similaire : accès à une url via un HTTP Get |
+{: .grid }
+
+#### Mise en correspondance des critères de recherche avec API Doc de l'Assurance Maladie
+
+| **PDSm Flux 05-a** | **API DOC CNAM** | **Remarques** |
+| ----- | ----- | ----- |
+| period-start | period-start | OK |
+| category | category | ValueSet différents |
+| patient.identifier | patient:identifier | Recherche différente |
+| type | ∅ Pas d'équivalence | |
+| facility |  ∅ Pas d'équivalence | |
+| setting |  ∅ Pas d'équivalence | |
+| identifier |  ∅ Pas d'équivalence | |
+| creation |  ∅ Pas d'équivalence | |
+| security-label |  ∅ Pas d'équivalence | |
+| status |  ∅ Pas d'équivalence | |
+| isArchived |  ∅ Pas d'équivalence | |
+| period-end |  ∅ Pas d'équivalence | |
+| format |  ∅ Pas d'équivalence | |
+| relatesto |  ∅ Pas d'équivalence | |
+| event |  ∅ Pas d'équivalence | |
+| period |  ∅ Pas d'équivalence | |
+{: .grid }
+

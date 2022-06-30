@@ -43,7 +43,7 @@ Sur le DocumentReference (Fiche) :
 * period-end
 * format
 * category
-* RelatesTo
+* relatesto
 * event
 * period
 
@@ -79,11 +79,11 @@ Le flux 05-a contient les critères suivants :
 | dateSoumission : Date | date : date            |
 |typeActivite : Code | designationType : token |
 | idUnique : Identifiant | identifier : token |
-| statut : Code |  status : token <br/> Paramètre de recherche créé pour le volet PDSm : isArchived : token|
+| statut : Code |  status : token <br/> Paramètre de recherche créé pour le volet PDSm : <br/> isArchived : token|
 | idLotSoumission : Identifiant | identifier : token |
 | titre : Texte | title : string |
 | idSource : Identifiant | sourceId : reference |
-| auteur : Identifiant | source : reference <br/> Paramètre de recherche créé pour le volet PDSm authorOrg : reference |
+| auteur : Identifiant | source : reference <br/> Paramètre de recherche créé pour le volet PDSm <br/> authorOrg : reference |
 | code : code | code : token |
 | idPatient : Identifiant | patient.identifier : token |
 | prenomAuteurPersonnePhysique : Texte | source:Patient.given : string <br/> source:PractitionerRole.partOf.given-ex : string |
@@ -119,7 +119,7 @@ Le flux 05-b contient les critères suivants :
 |dateCreationDocument : Date | creation : date |
 |niveauConfidentialite : Code | security-label : token |
 |idUnique : Identifiant | identifier : token |
-|statut : Code | status : token <br/> Paramètre de recherche créé pour le volet PDSm : isArchived : token |
+|statut : Code | status : token <br/> Paramètre de recherche créé pour le volet PDSm : <br/>  isArchived : token |
 |dateDebutActe : Date | Paramètre de recherche créé pour le volet PDSm : <br/> period-start : date |
 |dateFinActe : Date | Paramètre de recherche créé pour le volet PDSm : <br/> period-end : date |
 |formatDocument : Code | format : token |
