@@ -1,5 +1,5 @@
 id: ans.fhir.fr.PDSm
-canonical: http://esante.gouv.fr/fhir/PDSm
+canonical: http://esante.gouv.fr/ci-sis/fhir/PDSm
 name: PDSm
 title: Partage de Documents de Santé en mobilité (PDSm)
 publisher:

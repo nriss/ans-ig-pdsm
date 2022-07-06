@@ -1,64 +1,7 @@
 ### Flux 05 : recherche de documents
 
 Ce flux intervient lorsque le consommateur de documents souhaite rechercher un ou plusieurs documents d'un patient du gestionnaire partage de documents. Il y a deux types de recherche : la recherche de lots de soumission et la recherche de fiches. Ci-dessous les critères de recherche pour chaque type. 
-
-#### Flux 05-a : critères de recherche de LotDeSoumission
-Sur la ressource LotDeSoumission :
-* date
-* designationType
-* identifier
-* status
-* isArchived //Todo : make a SearchParam
-* identifier
-* title
-* sourceId
-* source
-* authorOrg
-* code
-* patient identifier
-
-Sur le Patient : 
-* given
-* family
-
-Sur le PractitionerRole :
-* given-ex
-* family-ex
-
-
-#### Flux 05-a : critères de recherche de fiches
-
-Sur le DocumentReference (Fiche) : 
-* type
-* facility
-* setting
-* identifier (idFiche)
-* creation
-* security-label
-* identifier (idUnique)
-* status
-* isArchived
-<!-- period-end, period-start // TODO SearchParam -->
-* period-start
-* period-end
-* format
-* category
-* relatesto
-* event
-* period
-
-Pour la ressource FrPatient :
-* identifier
-* given
-* family
-
-Pour la ressource Device :
-* identifier
-
-Pour la ressource PractitionerRole :
-* identifier
-* given-ex
-* family-ex
+x
 
 ### Construction du flux 
 
@@ -69,7 +12,7 @@ La recherche de documents peut se faire de deux manières/étapes :
 #### Flux 05-a Recherche de LotDeSoumission
 Ce flux se base sur la requête de la transaction IHE "Find Document Lists [ITI-66]" du profile MHD.
 
-Le flux 05-a de recherche de LotDeSoumission se base sur l’interaction « search37 » de L’API REST FHIR. Il s’agit d’une requête HTTP GET ou HTTP POST adressant la ressource List et regroupant les paramètres listés dans la liste ci-dessous.
+Le flux 05-a de recherche de LotDeSoumission se base sur l’interaction « search » de L’API REST FHIR. Il s’agit d’une requête HTTP GET ou HTTP POST adressant la ressource List et regroupant les paramètres listés dans la liste ci-dessous.
 
 Le flux 05-a contient les critères suivants :
 
@@ -77,7 +20,7 @@ Le flux 05-a contient les critères suivants :
 | Critère de recherche  | Paramètre de recherche |
 | ----- | ----- |
 | dateSoumission : Date | date : date            |
-|typeActivite : Code | designationType : token |
+| typeActivite : Code | designationType : token |
 | idUnique : Identifiant | identifier : token |
 | statut : Code |  status : token <br/> Paramètre de recherche créé pour le volet PDSm : <br/> isArchived : token|
 | idLotSoumission : Identifiant | identifier : token |

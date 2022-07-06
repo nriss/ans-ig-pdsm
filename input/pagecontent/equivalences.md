@@ -12,13 +12,13 @@ Ce tableau reprend les acteurs identifiés dans les SFE-PDS ainsi que les flux q
 | Flux 1 - AjoutLotDocument <br/> Flux 2 - ResultatAjoutLotDocument | Provide Document Bundle [ITI-65] |
 | Flux 3 - MiseAJourMetadonneeFiche <br/> Flux 4 - ResultatMAJMetadonneFiche | Hors périmètre MHD|
 | **Consommateur de documents** | **Document Consumer** |
-| Flux 5 - RechercheDocument <br/> Flux 6 -ResultatRechercheDocument | Find Document Lists [ITI-66] <br/>Find Document References [ITI-67] |
+| Flux 5 - RechercheDocument <br/> Flux 6 - ResultatRechercheDocument | Find Document Lists [ITI-66] <br/>Find Document References [ITI-67] |
 | Flux 7 - DemandeConsultationDocuments <br/>Flux 8 - ResultatDemandeConsultationDocument | Retrieve Document [ITI-68]| 
 | **Gestionnaire de partage de documents** | **DocumentRecipient** |
 | Flux 1 - AjoutLotDocument <br/> Flux 2 - ResultatAjoutLotDocument | Provide Document Bundle [ITI-65] |
 | Flux 3 - MiseAJourMetadonneeFiche <br/> Flux 4 - ResultatMiseAJourMetadonneFiche | Hors périmètre MHD |
 | **Gestionnaire de partage de documents** | **Document Responder** |
-| Flux 5 - RechercheDocument <br/> Flux 6 -ResultatRechercheDocument | Find Document Lists [ITI-66] <br/> Find Document References [ITI-67] |
+| Flux 5 - RechercheDocument <br/> Flux 6 - ResultatRechercheDocument | Find Document Lists [ITI-66] <br/> Find Document References [ITI-67] |
 | Flux 7 - DemandeConsultationDocuments <br/> Flux 8 - ResultatDemandeConsultationDocument | Retrieve Document [ITI-68] |
 {: .grid }
 
@@ -32,7 +32,7 @@ Ce tableau reprend les acteurs identifiés dans les SFE-PDS ainsi que les flux q
 | Flux 7 - DemandeConsultationDocuments  <br/> Flux 8 - ResultatDemandeConsultationDocument | XDS Retrieve Document Set ITI-43 |
 {: .grid }
 
-#### Mise en correspondance des flux avec API Doc de l'Assurance Maladie
+#### Mise en correspondance avec API DOC MES
 
 | **Flux partage de documents de santé en mobilité** | **Flux API DOC CNAM** | **Comparaison** |
 | ----- | ----- | ----- |
@@ -63,4 +63,22 @@ Ce tableau reprend les acteurs identifiés dans les SFE-PDS ainsi que les flux q
 | event |  ∅ Pas d'équivalence | |
 | period |  ∅ Pas d'équivalence | |
 {: .grid }
+
+
+
+##### Search Parameters de la ressource DocumentReference (flux 05-b)
+
+| **Nom SearchParam PDSm** | **Commentaire** |
+| ----- | ----- |
+| period-start | Compatible |
+| category | Compatible |
+| patient.identifier | Devient patient:identifier dans API DOC MES|
+| _count | N'est pas présent dans la documentation de PDSm |
+{: .grid }
+
+
+##### Différences de modélisation de la ressource DocumentReference
+
+* DocumentReference.category n'est pas bindé au même ValueSet (table des catégories ENS vs TRE)
+* content.attachment.data (obligatoire pour API DOC MES vs ressource Binary pour PDSm)
 

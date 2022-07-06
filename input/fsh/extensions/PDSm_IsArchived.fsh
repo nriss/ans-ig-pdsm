@@ -1,6 +1,6 @@
 Extension: PDSm_IsArchived
 Id: PDSmIsArchived
-Title: "PDSm_isArvhived"
+Title: "PDSm_isArchived"
 Description: "Extension définie par le volet ANS \"Volet Partage de documents de santé en mobilité\" sur les ressources List et DocumentReference pour distinguer les lots de soumission et les fiches archivés des actives."
 * ^url = "http://esante.gouv.fr/cisis/fhir/StructureDefinition/PDSm_isArchived"
 * ^version = "1.0"
