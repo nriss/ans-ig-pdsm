@@ -1,3 +1,6 @@
+[OBSOLETE]
+Nouveau repo : https://github.com/ansforge/FIG_ans-ig-PDSm
+
 # Description
 Ceci est exemple d'ImplementationGuide très simplifié qui servira de template pour les prochains développement d'IGs.
 
